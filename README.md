@@ -1,4 +1,5 @@
 # 📊 Analyst AI: Earnings Analyzer
+Deployed Link : https://financial-analyst.streamlit.app/
 
 **Analyst AI** is a financial analysis tool powered by **Google Gemini 1.5 Flash**. It ingests earnings reports (including scanned PDFs/images), performs server-side OCR, and extracts structured insights, sentiment analysis, and forward guidance into an interactive dashboard.
 
