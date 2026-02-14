@@ -20,8 +20,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/analyst-ai.git](https://github.com/yourusername/analyst-ai.git)
-cd analyst-ai
+git clone
+
 2. Create a Virtual Environment (Optional but Recommended)
 Bash
 python -m venv venv
@@ -29,14 +29,11 @@ python -m venv venv
 .\venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
+
 3. Install Dependencies
 Bash
 pip install -r requirements.txt
-Note: If you don't have a requirements.txt, create one with the following content:
 
-Plaintext
-streamlit
-google-generativeai
 🏃‍♂️ Running the App
 Start the Streamlit server:
 
@@ -47,7 +44,7 @@ The app will open in your browser at http://localhost:8501.
 🔑 Configuration
 To use the app, you need a Google Gemini API Key.
 
-Get a free key here: Google AI Studio
+Get a free key here: [Google AI Studio](https://aistudio.google.com/api-keys)
 
 Enter the key in the application sidebar.
 
@@ -57,8 +54,9 @@ Ini, TOML
 # .streamlit/secrets.toml
 GEMINI_API_KEY = "your-api-key-here"
 📸 Screenshots
-Upload Interface	Analysis Dashboard
-(Add a screenshot of your upload page here)	(Add a screenshot of your results page here)
+<img width="1918" height="865" alt="image" src="https://github.com/user-attachments/assets/fb1c0823-6e31-4799-9e7d-a65dda6ab877" />
+<img width="1919" height="921" alt="image" src="https://github.com/user-attachments/assets/83e61c5a-cabf-4466-886c-fd3d3a1d52f4" />
+
 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
